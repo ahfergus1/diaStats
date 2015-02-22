@@ -1,2 +1,5 @@
 #Ignore my numbers. Sorry, but I'm not comfortable releasing this on the net.
 *.csv
+
+#MATLAB temp files
+*.asv

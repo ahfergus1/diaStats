@@ -166,3 +166,4 @@ end
 
 [ features, thresholds, polarities, alphas ] = boost(C,15);
 CONF = ApplyBoost(features, thresholds, polarities, alphas, C);
+error = (CONF(1,2)+CONF(2,1))/sum(sum(CONF));
